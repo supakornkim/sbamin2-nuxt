@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/oapi/*"
+  to = "http://xx.xx.xx.xx/oapi/:splat" 
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://xx.xx.xx.xx/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sites/default/*"
+  to = "http://xx.xx.xx.xx/sites/default/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/s/sites/default/*"
+  to = "http://xx.xx.xx.xx/sites/default/:splat"
+  status = 200
+  force = true
